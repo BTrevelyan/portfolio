@@ -63,6 +63,7 @@ h2 {
   justify-content: space-between;
   position: relative;
   padding: 5px;
+  width: 100%;
 }
 .group {
   display: flex;
@@ -75,11 +76,16 @@ h2 {
   margin: 10px;
 }
 
+form {
+  text-align: center;
+ 
+}
+
 
 
 /* Desktop styles second */
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 800px) {
   header{
     display: flex;
     justify-content: space-between;
