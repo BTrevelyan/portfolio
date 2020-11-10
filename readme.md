@@ -1,0 +1,1 @@
+<!-- This is my personal website with links to my linkedin, github, and email address along with a recent portrait and a little background and some of my interests. I am a student at thinkful and did this by hand for my last step of my pre-work for the 301 web dev immersion course -->
