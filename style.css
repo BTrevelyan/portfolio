@@ -69,7 +69,10 @@ form {
   text-align: center;
  
 }
-
+section ul{
+  display: table;
+  margin: 0 auto;
+}
 
 
 /* Desktop styles second */
