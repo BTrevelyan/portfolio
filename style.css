@@ -59,6 +59,7 @@ h2 {
 }
 .group img {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;  
   justify-content: space-between;
   position: relative;
