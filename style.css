@@ -5,9 +5,8 @@ body{
 header {
   background-color: #000000;
   color: #ffffff;
-  text-align: center;
   justify-content: center;
-  padding: 0 30px;
+  margin-bottom: 40px;
 }
 
 header nav{
@@ -31,7 +30,6 @@ header nav ul li:last-child a{
   margin-right: 0;
 }
 
-
 h3 {
   text-align: center;
 }
@@ -49,37 +47,24 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
-
-main{
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-img {
+.group img {
+  display: flex;
+  flex-direction: column;  
+  position: relative;
+  padding: 5px;
   width: 100%;
 }
-
-.project1{
-  flex: 1;
-  margin: 50px;
+.group {
+  display: flex;
+  flex-direction: column;
 }
-.project2{
-  flex: 1;
-  margin: 50px;
-}
-.project3{
-  flex: 1;
-  margin: 50px;
-}
-.project4{
-  flex: 1;
-  margin: 50px;
-}
-.contact.item{
+.item {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  width: 30%;
+  margin: 10px;
 }
+
 form {
   text-align: center;
  
@@ -87,10 +72,6 @@ form {
 section ul{
   display: table;
   margin: 0 auto;
-}
-h1{
-  text-align: center;
-  font-size: 42px;
 }
 
 
@@ -116,5 +97,12 @@ h1{
   header nav ul li a:hover{
     color: #e085ff;
   }
+  section {
+    padding: 0 10%;
+  }
 
+  .group {
+    flex-direction: row;
+  }
+  
 }
